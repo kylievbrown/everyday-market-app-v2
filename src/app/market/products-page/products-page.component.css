@@ -1,0 +1,23 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(160, 78, 160);
+    color: rgb(228, 225, 225);
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+
+h1 {
+   margin: 0;
+   font-size: 1.5rem;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}

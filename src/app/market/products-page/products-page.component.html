@@ -1,0 +1,15 @@
+<div class="header-container">
+<h1>Kylie's Everyday Shop</h1>
+<img src="assets/images/mylogo.png" alt="Logo" class="logo" />
+</div>
+
+<app-category-menu-item
+*ngFor="let category of categories"
+[categoryName]="category.name"
+(categorySelected)="onCategorySelected($event)">
+</app-category-menu-item>
+
+
+<div *ngIf="selectedCategory" class="category-message">
+    <p>You selected {{ selectedCategory }}!!</p>
+</div>
